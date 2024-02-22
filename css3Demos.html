@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div{
+            height: 500px;
+            width: 500px;
+            background-color: red;
+            border:5px solid green;
+             border-radius: 20px 5px 15px 40px; 
+            border-top-right-radius: 20px;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 40px;
+            border-top-right-radius: 2px;
+           
+        } */
+
+        #border-div{
+            height: 100px;
+            width: 100px;
+            background-color: pink;
+           border: 10px solid;
+           /* border-image:url(border1.png) 30 round; */
+           border-image-source: url(border1.png);
+           border-image-width: 30;
+           
+           
+        }
+
+        #imageoutset{
+width: 100px;
+height: 100px;
+margin-left: 40px;
+margin-bottom:40px;
+border: red solid;
+background-color: aqua;
+border-image-source:url(border1.png);
+border-width: 10px;
+border-image-slice: 5%;
+border-image-outset: 15px;
+       }
+
+img{
+height: 100px;
+width: 50px;
+
+}
+
+        #radialImage{
+border-style: solid;
+border-width: 10px;
+border-image: radial-gradient(rgb(58,61,60),rgb(47,227,221))
+
+        }
+
+
+        #linearImage{
+border-style: solid;
+border-width: 10px;
+border-image: linear-gradient(rgb(58,61,60),rgb(47,227,221))
+
+        }
+
+        #conicImage{
+border-style: solid;
+border-width: 10px;
+border-image: conic-gradient(rgb(58,61,60),rgb(47,227,221))
+
+        }
+    </style>
+</head>
+<body>
+    <!-- <div></div> -->
+    <div id="border-div"></div>
+    <img id="radialImage" src="person1.jpg"/>
+    <img id="linearImage" src="person1.jpg"/>
+    <img id="conicImage" src="person1.jpg"/>
+    <div style="height: 40px;width: 40px;
+    background-color:aqua;
+    border-style:solid dotted groove dashed ;
+    border-color: red;"></div>
+    <div id="imageoutset"></div>
+</body>
+</html>
