@@ -1,0 +1,133 @@
+Semantic:
+1) section:
+Part of Page:
+<section>
+Products:
+h1 List of Products 1:h1
+
+ProductCard
+<article>
+<h1>tea</h1>
+<p>Tea is made up of watr,sugar and milk and Tea :poweder. Milk solids can be used.....
+<figure> 
+<img/>
+<figcaption>
+
+</figure>
+</article>
+
+
+<article>
+<h1>Cofee</h1>
+<p>Tea is made up of watr,sugar and milk, coffee powder. Milk solids can be used.....
+<figure> 
+<img/>
+<figcaption>
+
+</figure>
+</article>
+
+
+
+<section>
+<aside>
+---------------------------------------------------
+
+CSS--- Cascading Style Sheet.
+It is used to add style to the page.
+Element: actual html element name
+h2{}
+
+ID: id attribute with html, with #f1{
+}
+
+<h1 id="f1">Hello</h1>
+Class: class attribute  with html, is written with (.)
+.c1
+{
+//"key":"value"
+"fore-color":"red",
+"background-color":"blue",
+}
+------------------------------
+
+Whenever every type element should have a different css, then element selector
+Whenever every element has to be different when there are multiple elements of the same type then use id selector.
+
+
+Whenever a group of elements, they may be of the same type or different type they need to look same, then use class selector.
+(group selector)
+--------------------------------
+
+
+p---> all paragraph elements should have background:green
+Only one paragraph that should have background-red
+
+
+1) Id with Class
+2) Element With ID
+
+types of css:
+
+1) Inline: most favoured
+html element: style attribute
+
+2) Internal:head
+<style>
+
+
+Reference external stylesheet in html page: head 
+<link href="" rel="stylesheet"/>
+3) External:
+body
+{
+background-color:red
+
+}
+
+CSS3:
+MediaQueries
+SelectorLevels
+Color
+Box Model
+Backgrounds
+TextEffects
+2d/3d transformations
+ animations
+Multiple Column layout
+User Interface
+
+
+255
+rgb(0,0,0)----black
+rgb(255,0,0)----red
+rgb(0,255,0)----green
+rgb(0,0,255)----blue
+
+RGBA--RGB with Alpha
+rgba(0,0,0,0)---black
+rgba(255,0,2)----
+
+HSL(Hue,Saturation,Lightness)
+hsl(0,0%,50%,)
+
+
+HSLA(Hue,Saturation,Lightness with Alpla)
+
+----------------------------------------
+CSS Position (Div) :
+1) static
+2) relative
+3) fixed
+4) absolute
+5) sticky
+
+
+
+
+
+
+
+
+
+

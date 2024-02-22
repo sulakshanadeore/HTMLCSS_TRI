@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+                    /* horizontal vertical  blur color*/
+                    /* text-shadow: 2px 2px 5px red; */
+                    color:white; 
+                    /* 3 colors */
+                    /* text-shadow: 1px 1px 2px black,0 0 20px blue,0 0 5px darkblue */
+                    /* text with border and no shadow */
+                    color:crimson;
+                   text-shadow: -2px 0 black,-2px 0 black,0 -2px black
+            
+        }
+        #div1{
+
+            height: 100px;
+            width: 100px;
+            background-color:coral;
+             /* border: 20px solid red;  */
+                       /* hori  vert  blur spread color */
+            /* box-shadow: 10px 10px 5px 12px black; */
+             box-shadow: 10px 10px 5px  black inset;
+
+        }
+        .special{
+         width:500px;
+         /* transform:rotate(-20deg);       */
+         /* transform: scaleX(3); */
+         /* transform: skew(20deg,10deg); */
+         /* transform: rotateZ(360deg); */
+         /* transform: rotate3d(10,50,100,360deg); */
+
+         transition: width 2s,height 4s;
+         box-shadow:0 4px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0,0.19);
+         text-align: center;
+         padding: 10px;
+
+
+        }
+        .special:hover{
+            width: 300px;
+            height: 300px;
+
+        }
+    </style>
+</head>
+<body>
+    <p>Text Shadow and Box shadow</p>
+    <h1>Heading for the page</h1>
+    <div id="div1"></div>
+
+    <div class="special">
+        <figure>
+        <img src="person1.jpg" style="width:200px"/>
+        <figcaption>
+            <p>Some Person</p>
+            <p>Empid:1888</p>
+            <p>City: Bangalore</p>
+        </figcaption>
+        </figure>
+    </div>
+
+
+    <div class="special">
+        <figure>
+        <img src="back1.jpg" style="width:200px"/>
+        <figcaption>
+            <p>Some Person</p>
+            <p>Empid:1888</p>
+            <p>City: Bangalore</p>
+        </figcaption>
+        </figure>
+    </div>
+
+
+
+</body>
+</html>
